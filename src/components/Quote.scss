@@ -13,7 +13,6 @@
         font-weight: 700;
         font-size: 24px;
         text-align: left;
-
         margin: 10px auto;
         max-width: 800px;
         color: #4F4F4F;
@@ -22,8 +21,6 @@
     &__author-bold{
         font-size: 36px;
     }
-
-
 
     &__genre{
         text-align: left;
@@ -46,7 +43,6 @@
                 transition: 0.2s;
             }
         }
-
     }
 
     &__return{
@@ -71,3 +67,20 @@
     }
 }
 
+@media (max-width: 1000px) {
+    .quote{
+        padding: 10px;
+        &__text{
+            margin: 80px auto;
+            border-left: #F7DF94 8px solid; 
+            padding: 0 20px;
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .quote__text{
+        font-size: 20px;
+    }
+}

@@ -64,6 +64,7 @@ class App extends Component {
 
   handleAuthorClick(){
     console.log('author click')
+    this.setState({ authorQuoteList: [] })
     this.switchDisplayQuote()
     getAuthorQuotes(this.state.author)
     .then(res => {
