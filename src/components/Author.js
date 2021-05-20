@@ -1,11 +1,22 @@
+import './Quote.scss'
+
 function Author (props) {
     return(
-        <div className="author">
-            <div className="author__return-button" onClick={props.returnClick}>back</div>
-            <div className="author__name">{props.author}</div>
-            <div className="author__quotes">
+        <div className="quote">
+            
+            <div className="quote__author quote__author-bold">
+                <div className="quote__return" onClick={props.returnClick}>
+                <p>
+                    <span className="material-icons icon">
+                        keyboard_backspace
+                    </span>
+                    go back to quote
+                </p>
+            </div>
+                <p>{props.author}</p></div>
+            <div className="quote__quotes">
                 {props.quoteList.map((item, index) => 
-                    <div className="author__quote" key={index}>{item.quoteText}</div>
+                    <div className="quote__text" key={index}>{`"${item.quoteText}"`}</div>
                     )}
             </div>
         </div>

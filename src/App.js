@@ -84,7 +84,10 @@ class App extends Component {
 
     return(
       <div className="App">
-        <div className="random" onClick={() => this.handleRandomQuote()}>random</div>
+        <div className="random" onClick={() => this.handleRandomQuote()}>
+          <p>random <span className="material-icons icon">autorenew</span></p>
+
+        </div>
 
 
         {this.state.displayQuote ?
