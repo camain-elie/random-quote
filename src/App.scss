@@ -6,6 +6,8 @@
   font-family: 'Raleway', sans-serif;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  width: 100wh;
 }
 
 .random{
@@ -21,4 +23,3 @@
     top: 6px;
   }
 }
-
