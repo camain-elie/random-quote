@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/random-quote/static/css/main.3536739d.chunk.css",
+    "main.js": "/random-quote/static/js/main.8658338f.chunk.js",
+    "main.js.map": "/random-quote/static/js/main.8658338f.chunk.js.map",
+    "runtime-main.js": "/random-quote/static/js/runtime-main.bdcaaf74.js",
+    "runtime-main.js.map": "/random-quote/static/js/runtime-main.bdcaaf74.js.map",
+    "static/css/2.c208468e.chunk.css": "/random-quote/static/css/2.c208468e.chunk.css",
+    "static/js/2.1db82cb3.chunk.js": "/random-quote/static/js/2.1db82cb3.chunk.js",
+    "static/js/2.1db82cb3.chunk.js.map": "/random-quote/static/js/2.1db82cb3.chunk.js.map",
+    "index.html": "/random-quote/index.html",
+    "static/css/2.c208468e.chunk.css.map": "/random-quote/static/css/2.c208468e.chunk.css.map",
+    "static/css/main.3536739d.chunk.css.map": "/random-quote/static/css/main.3536739d.chunk.css.map",
+    "static/js/2.1db82cb3.chunk.js.LICENSE.txt": "/random-quote/static/js/2.1db82cb3.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/random-quote/static/media/MaterialIcons-Regular.cff684e5.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bdcaaf74.js",
+    "static/css/2.c208468e.chunk.css",
+    "static/js/2.1db82cb3.chunk.js",
+    "static/css/main.3536739d.chunk.css",
+    "static/js/main.8658338f.chunk.js"
+  ]
+}
